@@ -61,9 +61,6 @@ public class FXMLController {
     	}catch (NumberFormatException ne) {
     		txtRisultato.setText("Devi inserire un numero (1 o 2) per il periodo didattico");
     		return;
-    	}catch (NullPointerException npe) {
-    		txtRisultato.setText("Devi inserire un numero (1 o 2) per il periodo didattico");
-    		return;
     	}
     	
     	if(periodo < 1 || periodo > 2) {
